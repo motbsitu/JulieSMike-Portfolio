@@ -1,0 +1,34 @@
+h2{
+  color: white;
+}
+.navbar
+{
+    background-color: #B24300;
+    background-image: none;
+    margin-bottom: 50px;
+}
+body{
+  background-color: #9CFEFF;
+
+}
+
+.julie{
+  width:1000px;
+  height:563px;
+  margin: 80px auto auto auto;
+  display: block;
+
+}
+.bar-image{
+
+  height: 400px;
+}
+
+.project-box{
+  width: 800px;
+  height: 800px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  float: none;
+}
