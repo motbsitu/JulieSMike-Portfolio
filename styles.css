@@ -1,6 +1,10 @@
 h2{
   color: white;
 }
+h3{
+  text-align: center;
+  clear:both;
+}
 .navbar
 {
     background-color: #B24300;
@@ -20,15 +24,20 @@ body{
 
 }
 .bar-image{
-
   height: 400px;
+  display: block;
+  margin: auto;
 }
 
 .project-box{
-  width: 800px;
-  height: 800px;
+  width: 500px;
+  height: 250px;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   float: none;
+  display: inline-block;
+  float: left;
+  margin: 20px;
+
 }

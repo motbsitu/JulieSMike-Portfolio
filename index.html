@@ -1,61 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>JS Mike Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="vendors/jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>
 
-  </head>
-  <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="wrapper">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only"><a>Menu</a></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-      </div>
-      <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-center">
-              <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about"> About</a></li>
-              <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#projects">Projects</a></li>
-              <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#resume">Resume</a></li>
-              <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">Contact</a></li>
-              <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#social">Social Media</a></li>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-center">
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about"> About</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#projects">Projects</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#resume">Resume</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">Contact</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#social">Social Media</a></li>
 
-          </ul>
-          <h2 class="text-right">Julie S. Mike, Developer</h2>
+                    </ul>
+                    <h2 class="text-right">Julie S. Mike, Developer</h2>
 
-      </div>
+                </div>
 
-  </div>
+            </div>
+        </div>
     </div>
-    <img class="julie" src ="images/julie-paint.jpg" />
 
-  <div>
-    <h3><a name = "about">About</a></h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis risus nec nibh iaculis dictum. Quisque quis rutrum justo, vel scelerisque ante. Morbi eleifend a nibh id tristique. Nam semper diam a finibus varius. Nullam luctus ipsum quis felis aliquam, eu vulputate libero eleifend. Nullam tincidunt porttitor augue, aliquet tempor leo porttitor ac. Nunc venenatis, nulla vitae consectetur condimentum, sapien dolor porttitor nisi, ac euismod enim nulla eget enim. Etiam a euismod justo. Vestibulum accumsan lacus sit amet lectus congue consequat. Maecenas eu ipsum scelerisque nibh cursus ullamcorper. Nunc viverra tempus turpis, euismod tincidunt mauris eleifend non. Quisque sem dui, tincidunt ac magna in, luctus scelerisque sapien. Pellentesque tincidunt fermentum ex, gravida mollis neque aliquam in. Morbi purus nibh, maximus eu feugiat vitae, suscipit ac nisi. Morbi aliquet consequat sodales.
-    </p>
-    <p>
-      Nunc vel mauris vehicula, ullamcorper est sed, ultricies elit. Sed laoreet ipsum ac eleifend suscipit. Etiam venenatis mattis elit efficitur molestie. Aliquam accumsan condimentum imperdiet. Nullam vehicula urna posuere urna consequat maximus. Etiam eleifend vulputate lacus at tristique. Pellentesque vehicula ex ipsum, vel condimentum erat vehicula eget. Etiam cursus condimentum semper. Vestibulum commodo pellentesque erat nec lobortis. Mauris in urna nec mauris auctor cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque enim ante, ullamcorper vel imperdiet vel, pulvinar in nulla.
-    </p>
-    <h3><a name = "projects">Projects</a></h3>
-    <img class="bar-image" src="images/code.jpg" />
-    <div class="project-box">
+
+    <div>
+        <h3><a id="about">About</a></h3>
+          <img class="julie" src="images/julie-paint.jpg" />
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis risus nec nibh iaculis dictum. Quisque quis rutrum justo, vel scelerisque ante. Morbi eleifend a nibh id tristique. Nam semper diam a finibus varius. Nullam luctus ipsum quis
+            felis aliquam, eu vulputate libero eleifend. Nullam tincidunt porttitor augue, aliquet tempor leo porttitor ac. Nunc venenatis, nulla vitae consectetur condimentum, sapien dolor porttitor nisi, ac euismod enim nulla eget enim. Etiam a euismod
+            justo. Vestibulum accumsan lacus sit amet lectus congue consequat. Maecenas eu ipsum scelerisque nibh cursus ullamcorper. Nunc viverra tempus turpis, euismod tincidunt mauris eleifend non. Quisque sem dui, tincidunt ac magna in, luctus scelerisque
+            sapien. Pellentesque tincidunt fermentum ex, gravida mollis neque aliquam in. Morbi purus nibh, maximus eu feugiat vitae, suscipit ac nisi. Morbi aliquet consequat sodales.
+        </p>
+        <p>
+            Nunc vel mauris vehicula, ullamcorper est sed, ultricies elit. Sed laoreet ipsum ac eleifend suscipit. Etiam venenatis mattis elit efficitur molestie. Aliquam accumsan condimentum imperdiet. Nullam vehicula urna posuere urna consequat maximus. Etiam eleifend
+            vulputate lacus at tristique. Pellentesque vehicula ex ipsum, vel condimentum erat vehicula eget. Etiam cursus condimentum semper. Vestibulum commodo pellentesque erat nec lobortis. Mauris in urna nec mauris auctor cursus. Pellentesque habitant
+            morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque enim ante, ullamcorper vel imperdiet vel, pulvinar in nulla.
+        </p>
+        <h3><a name = "projects">Projects</a></h3>
+        <img class="bar-image" src="images/code.jpg" />
+        <div >
+          <a href="https://www.motodestinations.com/"  target="_blank"><img class="project-box" src="images/Moto-small.png" /></a>
+        </div>
+        <div >
+          <a href="http://codepen.io/motbsitu/full/GroOJR/"  target="_blank"><img class="project-box" src="images/Salary-calc.png" /></a>
+        </div>
+        <div >
+          <a href="http://codepen.io/motbsitu/pen/OWMOWN"  target="_blank"><img class="project-box" src="images/color-guess.png" /></a> 
+        </div>
+        <h3><a name = "resume">Resume</a></h3>
+        <img class="bar-image" src="images/resume.jpg">
+
+
+        <h3><a id="contact">Contact</a></h3>
+        <p>
+            Stuff here
+        </p>
     </div>
-    <!-- <div class="box pull-right">
-    </div> -->
-    <h3><a name = "resume">Resume</a></h3>
-    <img src="images/resume.png">
+</body>
 
-
-    <h3><a name = "contact">Contact</a></h3>
-    <p>
-      Stuff here
-    </p>
-  </div>
-  </body>
 </html>
