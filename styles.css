@@ -5,8 +5,9 @@
     margin-bottom: 100px;
 }
 body{
-  background-color: #9CFEFF;
-  margin: 20px;
+  background-color: black;
+  margin: 100px;
+  color: #9CFEFF;
 }
 
 .julie{
@@ -26,7 +27,7 @@ h3{
 #about {
   text-align: center;
   /*clear:both;*/
-  position: absolute;
+  /*position: absolute;*/
   top: 90px;
   left: 0;
   width: 100%;
@@ -39,7 +40,7 @@ h3{
 #projects {
   text-align: center;
   /*clear:both;*/
-  position: absolute;
+  /*position: absolute;*/
   top: 50px;
   left: 0;
   width: 100%;
@@ -52,7 +53,7 @@ h3{
 #resume {
   text-align: center;
   clear:top;
-  position: absolute;
+  /*position: absolute;*/
   top: 100px;
   left: 0;
   width: 100%;
@@ -68,13 +69,10 @@ h3{
 .project-box{
   width: 500px;
   height: 250px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  float: none;
-  display: inline-block;
-  float: left;
-  margin: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px #9CFEFF;
+  -moz-box-shadow: 10px 10px 5px 0px #9CFEFF;
+  box-shadow: 10px 10px 5px 0px #9CFEFF ;
+  /*rgba(0,0,0,0.75)*/
 
 }
 
@@ -96,7 +94,7 @@ h4{
 #contact {
   text-align: center;
   clear:top;
-  position: absolute;
+  /*position: absolute;*/
   top: 100px;
   left: 0;
   width: 100%;
@@ -105,8 +103,26 @@ h4{
 
 
 #icon-section{
-  margin:20px auto;
-  width: 50%;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.flex-item{
+  margin: 15px;
 }
 /*=== MB share buttons ===*/
 .mb_share .button {

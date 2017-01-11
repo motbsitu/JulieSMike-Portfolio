@@ -13,7 +13,7 @@
 <body>
     <div class="container-fluid">
         <div class="wrapper">
-            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only"><a>Menu</a></span>
@@ -39,16 +39,17 @@
     </div>
 
 
-    <div class="about-section">
+    <div id="about" class="about-section">
         <div class="image">
             <img class="julie" src="images/julie-paint.jpg" />
-            <h3><a id="about">About Me</a></h3>
+            <h3><a >About Me</a></h3>
         </div>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis risus nec nibh iaculis dictum. Quisque quis rutrum justo, vel scelerisque ante. Morbi eleifend a nibh id tristique. Nam semper diam a finibus varius. Nullam luctus ipsum quis
-            felis aliquam, eu vulputate libero eleifend. Nullam tincidunt porttitor augue, aliquet tempor leo porttitor ac. Nunc venenatis, nulla vitae consectetur condimentum, sapien dolor porttitor nisi, ac euismod enim nulla eget enim. Etiam a euismod
-            justo. Vestibulum accumsan lacus sit amet lectus congue consequat. Maecenas eu ipsum scelerisque nibh cursus ullamcorper. Nunc viverra tempus turpis, euismod tincidunt mauris eleifend non. Quisque sem dui, tincidunt ac magna in, luctus scelerisque
-            sapien. Pellentesque tincidunt fermentum ex, gravida mollis neque aliquam in. Morbi purus nibh, maximus eu feugiat vitae, suscipit ac nisi. Morbi aliquet consequat sodales.
+
+
+            Data Management Project Management Creative Problem Solving Leadership and Team Building Prioritize Multiple Projects Business Communications Team Collaboration Curious Learner, Self Taught Process Improvement and Automation Process Documentation Logical/Analytical
+            Thinking Budgeting and Estimation Customer Service Focus Passion for Technology
+
         </p>
         <p>
             Nunc vel mauris vehicula, ullamcorper est sed, ultricies elit. Sed laoreet ipsum ac eleifend suscipit. Etiam venenatis mattis elit efficitur molestie. Aliquam accumsan condimentum imperdiet. Nullam vehicula urna posuere urna consequat maximus. Etiam eleifend
@@ -59,25 +60,25 @@
         </div>
     </div>
 
-    <div class="project-section">
+    <div id="projects" class="project-section">
         <div class="image">
-            <h3><a id = "projects">Projects</a></h3>
+            <h3><a >Projects</a></h3>
             <img class="bar-image" src="images/code.jpg" />
         </div>
-        <div>
-            <div>
+        <div class="flex-container">
+            <div class="flex-item">
                 <a href="https://www.motodestinations.com/" target="_blank"><img class="project-box" src="images/Moto-small.png" /></a>
             </div>
-            <div>
+            <div class="flex-item">
                 <a href="https://github.com/Kboneil/blue-watch" target="_blank"><img class="project-box" src="images/bluewatch.png" /></a>
             </div>
-            <div>
+            <div class="flex-item">
                 <a href="http://codepen.io/motbsitu/full/GroOJR/" target="_blank"><img class="project-box" src="images/Salary-calc.png" /></a>
             </div>
-            <div>
+            <div class="flex-item">
                 <a href="http://codepen.io/motbsitu/pen/OWMOWN" target="_blank"><img class="project-box" src="images/color-guess.png" /></a>
             </div>
-            <div>
+            <div class="flex-item">
                 <a href="https://github.com/motbsitu" target="_blank"><img class="project-box" src="images/github.png" /></a>
             </div>
 
@@ -85,15 +86,10 @@
         <div class="space">
         </div>
     </div>
-    <div class="space">
-    </div>
-    <div class="space">
-    </div>
-    <div class="space">
-    </div>
-    <div class="resume-section">
+
+    <div id="resume" class="resume-section">
         <div class="image">
-            <h3><a id = "resume">Resume</a></h3>
+            <h3><a >Resume</a></h3>
             <img class="bar-image" src="images/resume.jpg">
         </div>
         <div class="tech-skills">
@@ -152,101 +148,136 @@
                 <li>Technology used: MongoDB, Express.js, AngularJS, Node.js, Google Maps API, Passport.js, Bootstrap, Sass.</li>
             </ul>
             <h5>Minnesota Motorcycle Monthly (mnmotorcycle.com) | October 2014 - Present</h5>
-            <p>
-                Web Manager
-            </p>
+            <p>Web Manager</p>
             <li>Update website content on a monthly basis using Wordpress.</li>
             <li>Customize website using HTML.</li>
             <li>Setup and monitor Google AdSense.</li>
             <li>Manage social media interaction.</li>
 
-            <h5>Adventium Labs | October 2012 - September 2016</h5> Accounting Manager Responsible for accounting for government contracting tech research company. Managed new accounting software implementation project, transitioning from Quickbooks to JAMIS government cost accounting compliant software.
-            Compiled data from former system into appropriate format in MS Excel and imported into new system. Created system cost categories and coding to appropriately track data. Trained staff on new software processes and procedures. Prepared monthly,
-            quarterly, and annual financial reports and budgets using Jamis, Cognos, and Excel, including SQL Server queries. Managed accounts payable, billing, accounts receivable, payroll and general ledger Accurately tracked all income and expenses
-            for government cost allowability moving company into the low risk audit pool. Worked with tax and financial accounting firm to prepare tax returns and annual audit.
+            <h5>Adventium Labs | October 2012 - September 2016</h5>
+            <p>Accounting Manager</p>
+            <li>Responsible for accounting for government contracting tech research company.</li>
+            <li>Managed new accounting software implementation project, transitioning from Quickbooks to JAMIS government cost accounting compliant software.</li>
+            <ul>
+                <li>Compiled data from former system into appropriate format in MS Excel and imported into new system. </li>
+                <li>Created system cost categories and coding to appropriately track data. </li>
+                <li>Trained staff on new software processes and procedures.</li>
+            </ul>
+            <li>Prepared monthly,quarterly, and annual financial reports and budgets using Jamis, Cognos, and Excel, including SQL Server queries.</li>
+            <li>Managed accounts payable, billing, accounts receivable, payroll and general ledger.</li>
+            <li>Accurately tracked all income and expenses for government cost allowability and compliance moving company into the low risk audit pool.</li>
+            <li>Worked with tax and financial accounting firm to prepare tax returns and annual audit.</li>
 
-            <h5>Prime Mortgage | January 2012 - August 2012</h5> Loan Partner Implemented new marketing plans and productivity systems, and trained administrative staff. Coordinated monthly training events, including community outreach for event vendors and personnel, scheduling facilities and other event
-            details. Managed pipeline of mortgage loans from application to close. Lead communication with customers and other internal staff.
+            <h5>Prime Mortgage | January 2012 - August 2012</h5>
+            <p>Loan Partner</p>
+            <li>Implemented new marketing plans and productivity systems, and trained administrative staff.</li>
+            <li>Coordinated monthly training events, including community outreach for event vendors and personnel, scheduling facilities and other event details.</li>
+            <li>Managed pipeline of mortgage loans from application to close.</li>
+            <li>Lead communication with customers and other internal staff.</li>
 
-            <h5>Keller Williams Integrity Realty | July 2010 - January 2012</h5> Operations and Finance Manager (Market Center Administrator) Responsible for budgeting, commission accounting, payroll, accounts payable and accounts receivable, preparing financial reports, tax accounting preparation, and record maintenance
-            using proprietary Keller Williams applications - WINMORE and Account Edge. Provided office technical support, maintained backups, and maintained and troubleshooted network. Trained agents and staff on eEdge, Keller Williams software. Coordinated
-            monthly meetings and weekly trainings for agents. Established and maintained databases. Onboarded agents, managed employee records, and supervised staff. Managed office administration and facilities management.
+            <h5>Keller Williams Integrity Realty | July 2010 - January 2012</h5>
+            <p>Operations and Finance Manager (Market Center Administrator)</p>
+            <li>Responsible for budgeting, commission accounting, payroll, accounts payable and accounts receivable, preparing financial reports, tax accounting preparation, and record maintenance using proprietary Keller Williams applications - WINMORE and
+                Account Edge.</li>
+            <li>Provided office technical support, maintained backups, and maintained and troubleshooted network.</li>
+            <li>Trained agents and staff on eEdge, Keller Williams software.</li>
+            <li>Coordinated monthly meetings and weekly trainings for agents.</li>
+            <li>Established and maintained databases.</li>
+            <li>Onboarded agents, managed employee records, and supervised staff.</li>
+            <li>Managed office administration and facilities management.</li>
 
-            <h5>Integrity Team Branch / LendSmart Mortgage | August 2002 - December 2010</h5> Branch Manager Managed budgeting, commission accounting and payroll, accounts payable and accounts receivable, prepared financial reports and tax accounting documents, and all record maintenance for a four-location correspondent mortgage
-            branch. Provided technical support and training, maintained backups, and maintained and troubleshooted network. Created, implemented, and maintained website. Established and maintained databases, coordinated trainings, and managed other projects.
-            Recruited, onboarded, trained, coached, and supervised staff. Managed office administration and facilities management.
+            <h5>Integrity Team Branch / LendSmart Mortgage | August 2002 - December 2010</h5>
+            <p>Branch Manager</p>
+            <li>Managed budgeting, commission accounting and payroll, accounts payable and accounts receivable, prepared financial reports and tax accounting documents, and all record maintenance for a four-location correspondent mortgage branch.</li>
+            <li>Provided technical support and training, maintained backups, and maintained and troubleshooted network.</li>
+            <li>Created, implemented, and maintained website.</li>
+            <li>Established and maintained databases, coordinated trainings, and managed other projects.</li>
+            <li>Recruited, onboarded, trained, coached, and supervised staff.</li>
+            <li>Managed office administration and facilities management.</li>
 
         </div>
+        <div class="education">
+            <h4>Education</h4>
+            <h5>Prime Digital Academy | Full Stack Software Engineering Certification | December 2016</h5>
+            <h5>Minneapolis Community and Technical College | General Study | Jan 2016 - Current</h5>
+            <h5>Brown College | Associate of Applied Science Degree in Broadcasting</h5>
+            <h5>Mesabi Range Community College | General Study</h5>
+        </div>
+
+
+
+
+
     </div>
     <div class="space">
     </div>
-    <div class="contact-section">
+    <div id="contact" class="contact-section">
 
         <div class="image">
-            <h3><a id = "contact">Contact</a></h3>
+            <h3><a >Contact</a></h3>
             <img class="bar-image" src="images/contact.jpg">
         </div>
 
-<div id="icon-section" >
-    <div  class="mb_share" >
-        <div class="button gplus slide_ny">
-            <div class="icon"></div>
-            <div class="slide">
-                <span>
+        <div id="icon-section">
+            <div class="mb_share">
+                <div class="button gplus slide_ny">
+                    <div class="icon"></div>
+                    <div class="slide">
+                        <span>
                     gmail
                 </span>
-            </div>
-            <div class="native_button">
-                <div>
-                    <a href="mailto:juliesmike@gmail.com" target="_top">juliesmike<br>@gmail.com</a>
+                    </div>
+                    <div class="native_button">
+                        <div>
+                            <a href="mailto:juliesmike@gmail.com" target="_top">juliesmike<br>@gmail.com</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="button linkedin slide_y">
-            <div class="icon"></div>
-            <div class="slide">
-                <span>
+                <div class="button linkedin slide_y">
+                    <div class="icon"></div>
+                    <div class="slide">
+                        <span>
                     linkedin
                 </span>
-            </div>
-            <div class="native_button">
-                <div>
-                    <a href="https://www.linkedin.com/in/julie-s-mike" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="native_button">
+                        <div>
+                            <a href="https://www.linkedin.com/in/julie-s-mike" target="_blank">LinkedIn Profile</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="button github slide_ny">
-            <div class="icon"></div>
-            <div class="slide">
-                <span>
+                <div class="button github slide_ny">
+                    <div class="icon"></div>
+                    <div class="slide">
+                        <span>
                     github
                 </span>
-            </div>
-            <div class="native_button">
-                <div>
-                  <a href="https://github.com/motbsitu" target="_blank">GitHub Profile</a>
+                    </div>
+                    <div class="native_button">
+                        <div>
+                            <a href="https://github.com/motbsitu" target="_blank">GitHub Profile</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="button twitter slide_y">
-            <div class="icon"></div>
-            <div class="slide">
-                <span>
+                <div class="button twitter slide_y">
+                    <div class="icon"></div>
+                    <div class="slide">
+                        <span>
                     twitter
                 </span>
-            </div>
-            <div class="native_button">
-                <div>
-                  <a href="https://twitter.com/motbsitu" target="_blank">Twitter</a>
+                    </div>
+                    <div class="native_button">
+                        <div>
+                            <a href="https://twitter.com/motbsitu" target="_blank">Twitter</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    <div class="separator"></div>
+        <div class="separator"></div>
 </body>
 
 </html>
