@@ -38,9 +38,13 @@ h2{
 .image{
   position: relative;
 }
+.about-content{
 
+  text-align: justify;
+  margin: 0 200px 0 200px;
+}
 .content{
-    margin: auto 100px auto 100px;
+    margin: auto 250px auto 150px;
 
 }
 .bar-image{
@@ -53,10 +57,9 @@ h2{
 
 #about {
   text-align: center;
-  top: 90px;
-  left: 0;
+  /*top: 50px;
+  left: 0;*/
   width: 100%;
-  margin: 100px;
 
 }
 
