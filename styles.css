@@ -7,9 +7,7 @@
 
 }
 body{
-  /*background-color: black;*/
-  /*color: #9CFEFF;*/
-  font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 
 }
 
@@ -22,6 +20,7 @@ body{
 }
 .text-right{
   color: white;
+  text-decoration: none;
   margin-right: 15px;
   margin-top: 5px;
 }
@@ -40,7 +39,7 @@ body{
 }
 .about-content{
   text-align: justify;
-  margin: 0 300px 0 200px;
+  margin: 0 300px 0 300px;
 }
 .content{
     margin: auto 250px auto 150px;
@@ -81,7 +80,7 @@ body{
 }
 
 .project-box{
-  width: 470px;
+  width: 450px;
   height: 250px;
   -webkit-box-shadow: 10px 10px 5px 0px #B8B8B8 ;
   -moz-box-shadow: 10px 10px 5px 0px #B8B8B8 ;
