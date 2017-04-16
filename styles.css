@@ -15,11 +15,12 @@ body{
 }
 
 .julie{
-  width:1000px;
-  height:563px;
+  width:100%;
+  height:auto;
   margin: auto auto 50px auto;
   display: block;
   filter: brightness(75%);
+
 }
 .text-right{
   color: white;
@@ -61,7 +62,7 @@ body{
   margin: 0 50px 50px 50px;
 }
 .content{
-    margin: 15px 150px auto 50px;
+    margin: 15px 75px auto 50px;
 
 }
 .bar-image{
@@ -105,13 +106,7 @@ body{
   filter: brightness(75%);
 }
 
-.tech-li {
-  list-style-type: disc;
-  columns: 4;
-  -webkit-columns: 4;
-  -moz-columns: 4;
-  list-style-position: inside;
-}
+
 
 h4{
   margin-top: 15px;
@@ -169,6 +164,9 @@ h5{
 .flex3{
   margin-left: 75px;
   margin-bottom: 0;
+}
+.software{
+  margin-right: 10px;
 }
 
 @font-face {
