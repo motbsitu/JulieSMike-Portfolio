@@ -1,2 +1,2 @@
-# Julie S Mike
+# Julie Streier
 Portfolio Page
